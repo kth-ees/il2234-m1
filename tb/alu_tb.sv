@@ -1,6 +1,6 @@
 module alu_tb;
 
-  parameter BW = 16; // bitwidth
+  localparam BW = 16; // bitwidth
 
   logic unsigned [BW-1:0] in_a;
   logic unsigned [BW-1:0] in_b;
