@@ -1,5 +1,5 @@
 module alu #(
-  BW = 16 // bitwidth
+  parameter BW = 16 // bitwidth
   ) (
   input  logic unsigned [BW-1:0] in_a,
   input  logic unsigned [BW-1:0] in_b,
